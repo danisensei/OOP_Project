@@ -16,12 +16,12 @@ public:
 
 class Dog : public Animal {
 public:
-    Dog(std::string _name) : Animal(_name, "Woof") {}
+    Dog(std::string _name) : Animal(_name, "Woof") {} //dog makes sound
 };
 
 class Cat : public Animal {
 public:
-    Cat(std::string _name) : Animal(_name, "Meow") {}
+    Cat(std::string _name) : Animal(_name, "Meow") {} //cat makes its sound
 };
 
 class Cow : public Animal {
