@@ -29,7 +29,8 @@ public:
     Cow(std::string _name) : Animal(_name, "Moo") {}
 };
 
-int main() {
+int main() 
+{
     Dog dog("Buddy");
     Cat cat("Whiskers");
     Cow cow("Bessie");
